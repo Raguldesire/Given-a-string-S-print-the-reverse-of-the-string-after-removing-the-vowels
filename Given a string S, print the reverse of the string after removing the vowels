@@ -1,0 +1,13 @@
+n=input()
+l=[]
+m=[]
+for i in n:
+  if i=='a' or i=='e' or i=='i' or i=='o' or i=='u':
+    l.append(i)
+  else:
+    m.append(i)
+if len(l)==len(n):
+  print("-1")
+else :
+ x=m[::-1]
+ print(*x,sep='')
